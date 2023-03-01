@@ -1,0 +1,55 @@
+.button {
+	-fx-background-color: transparent;
+	-fx-background-radius: 4;
+	-fx-background-insets: 2px;
+	
+	-fx-alignment: center;
+	-fx-min-width: 150px;
+	
+	-fx-border-radius: 4;
+	-fx-border-width: 2 2 2 2;
+	-fx-border-color: black;
+	-fx-text-fill: black;
+}
+
+#player-info-sprite {
+	-fx-border-radius: 2;
+	-fx-border-width: 4;
+	-fx-border-color: black;
+	-fx-border-style: solid;
+}
+
+.button:hover {
+	-fx-background-color: #FAE03C;
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+}
+
+.label {
+	-fx-text-fill: black;
+}
+
+#light-label {
+	-fx-font-weight: normal;
+	-fx-font-style: italic;
+	-fx-font-size: 16px;
+}
+
+.text-field {
+	-fx-text-fill: black;
+	-fx-min-width: 300px;
+}
+
+.text-field:focused {
+	-fx-text-fill: black;
+	-fx-min-width: 300px;
+	-fx-background-color: #87CEEB;
+}
+
+.root {
+	-fx-font-size: 22px;
+	-fx-font-family: "Aclonica";
+	-fx-background: white;
+	-fx-font-weight: bolder;
+	-fx-base: white;
+}
